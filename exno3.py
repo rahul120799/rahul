@@ -1,7 +1,7 @@
 A=["a","e","i","o","u"]
 B=input()
 if (B in A):
-    print("vowel")
+    print("Vowel")
 elif(B.isalpha()):
     print("Consonant")
 else:
