@@ -1,4 +1,6 @@
-n=int(input())
-p=int(input())
+a=input()
+ss=a.split()
+n=int(ss[0])
+p=int(ss[1])
 exp=(n**p)
 print(exp)
