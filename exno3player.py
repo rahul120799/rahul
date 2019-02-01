@@ -1,2 +1,2 @@
-number=input()
-print(number[::-1])
+digits=input()
+print(digits[::-1])
