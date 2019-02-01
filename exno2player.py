@@ -1,6 +1,6 @@
-a=int(input())
-fact=1
-while(a>0):
-    fact=fact*a
-    a=a-1
-print(fact)
+s=int(input())
+factorial=1
+while(s>0):
+    factorial=factorial*s
+    s=s-1
+print(factorial)
