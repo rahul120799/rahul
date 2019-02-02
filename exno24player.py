@@ -1,5 +1,7 @@
 my_number  = input()
-if( my_number.isdigit()):
+if(my_number.isdigit()):
     print("yes")
-else:
+elif(my_number.isalpha()):
     print("no ")
+else:
+	print("no")
