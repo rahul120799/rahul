@@ -1,15 +1,13 @@
-a=input()
-ss=a.split()
-lower=int(ss[0])
-upper=int(ss[1])
- 
-for num in range(lower,upper + 1):
-   sum = 0
-   temp = num
-   while temp > 0:
-       digit = temp % 10
-       sum += digit ** 3
-       temp //= 10
- 
-   if num == sum:
-       print(num)
+a,z=map(int,input().split())
+c=[]
+for i in range(a,z):
+    m=0
+    y=i
+    while(y>0):
+        f=y%10
+        f=f*f*f
+        m=m+f
+        y=int(y/10)
+    if(m==i): 
+        c.append(m)
+print(*c)
