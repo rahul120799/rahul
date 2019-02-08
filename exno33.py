@@ -1,3 +1,3 @@
-d=list(input().strip())
-y=d.count(' ')
+q=list(input().strip())
+y=q.count(' ')
 print(y)
