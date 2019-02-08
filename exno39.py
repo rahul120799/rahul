@@ -1,2 +1,2 @@
-z=[int (x) for x in input().split()]
+z=[int (y) for y in input().split()]
 print (max(z))
