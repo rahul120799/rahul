@@ -1,3 +1,3 @@
 d=list(input().strip())
-a=d.count(' ')
-print(len(d)-a)
+z=d.count(' ')
+print(len(d)-z)
