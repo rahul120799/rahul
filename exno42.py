@@ -1,0 +1,9 @@
+n,k=map(str,input().split())
+a=len(n)
+b=len(k)
+if(a>b):
+   print(n)
+elif(b>a):
+   print(k)
+else:
+   print(k)
