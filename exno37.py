@@ -1,8 +1,5 @@
-a=input()
-ss=a.split()
-n=int(ss[0])
-p=int(ss[1])
-temp=n
-n=p
-p=temp
-print(n,p)
+n,k=map(int,input().split())
+n = n + k
+k = n - k
+n = n - k
+print(n,k)
