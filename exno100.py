@@ -1,5 +1,5 @@
-n=input()
-l= str(n)
+z=input()
+l= str(z)
 ls= list(l)
 product = 1
 
