@@ -1,12 +1,12 @@
-n,k=map(int,input().split())
+z,k=map(int,input().split())
 x=[]
 l1=[]
-for i in range(n):
+for i in range(z):
     l=[int(x) for x in input().split()]
     x.append(l)
     if 0 in l:
-        m=l.index(0)
-        l1.append(m)
+        y=l.index(0)
+        l1.append(y)
 for i in range(len(x)):
     if 0 in x[i]:
         for j in range(k):
