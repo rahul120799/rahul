@@ -1,13 +1,16 @@
-n2= int(input())
-in2_num = list(map(int, input().split()))
- 
-no2_of_one = []
-for i in in2_num:
-    count = 0
-    while i:
-        i &= (i-1)
-        count += 1
-    no2_of_one.append(count)
- 
-result = sorted(zip(no1_of_one, in2_num), reverse=True)
-print(*[num for _, num in result], sep='\n')
+o=int(input())
+r=list(map(int,input().split()))
+f=g=[]
+for i in range(0,o):
+    f=list(bin(r[i]))
+    f=f[2:]
+    g.append(f)
+g=sorted(g)
+g=g[::-1]
+for i in range(0,o):
+    b=1
+    z=0
+    for j in range(len(g[i])-1,-1,-1):
+        z=z+(int(g[i][j])*b)
+        b=b*2
+    print(z)
